@@ -1,11 +1,11 @@
 {
-  "name": "HiruAPI",
+  "name": "abdl",
   "version": "1.0.",
   "scripts": {
     "package": "sudo yarn install -y git ffmpeg ImageMagick nodejs yarnpkg libwebp",
     "start": " node index.js",
-    "pm-run": "sudo yarn global add pm2 && pm2 start index.js --name HiruAPI && pm2 log HiruAPI",
-    "pm-restart": "pm2 restart HiruAPI"
+    "pm-run": "sudo yarn global add pm2 && pm2 start index.js --name AQUAMD && pm2 log AQUAMD",
+    "pm-restart": "pm2 restart AQUAMD"
   },
   "description": "",
   "main": "index.js",
@@ -23,7 +23,6 @@
     "got": "^12.5.3",
     "node-fetch": "^2.6.1",
     "request": "^2.88.2",
-    "spotifydl-x": "^0.3.0",
-    "express": "^4.19.2"
+    "spotifydl-x": "^0.3.0"
   }
 }
